@@ -7,5 +7,6 @@ def cb(msg):
     node.get_logger().info("Listen: %d" % msg.data)
 
 rclpy.init()
+node = Node("listener")
 node = Node.create_subscription(Int16, "countup", cb, 10)
 rcply.spin(node)
