@@ -1,5 +1,8 @@
-import rcply
-from rcply.node import Node
+# SPDX-FileCopyrightText: 2023 Mahiro Yamoto
+# SPDX-License-Identifier: BSD-3-Clause
+
+import rclpy
+from rclpy.node import Node
 from std_msgs.msg import Int16
 
 def cb(msg):
@@ -8,5 +11,5 @@ def cb(msg):
 
 rclpy.init()
 node = Node("listener")
-node = Node.create_subscription(Int16, "countup", cb, 10)
+pub = node.create_subscription(Int16, "countup", cb, 10)
 rclpy.spin(node)

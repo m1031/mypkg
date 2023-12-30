@@ -1,4 +1,7 @@
-from setuptools import setup
+# SPDX-FileCopyrightText: 2023 Mahiro Yamoto
+# SPDX-License-Identifier: BSD-3-Clause
+
+from setuptools import find_packages, setup
 import os
 from glob import glob
 
@@ -7,17 +10,17 @@ package_name = 'mypkg'
 setup(
     name=package_name,
     version='0.0.0',
-    packages=[package_name],
+    packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name), glob('launch/*.launch.py'))
-        ],
+    ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='root',
-    maintainer_email='ma20031031@icloud.com',
+    maintainer='tokojun',
+    maintainer_email='tokojun15@outlook.jp',
     description='a package for practice',
     license='BSD-3-Clause',
     tests_require=['pytest'],
