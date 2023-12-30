@@ -8,5 +8,5 @@ colcon build
 source $dir/.bashrc
 timeout 10 ros2 launch mypkg talk_listen.launch.py > /tmp/myokg.log
 
-cat /temp/mypkg.log |
+cat /tmp/mypkg.log |
 grep ' Listen: 10'
