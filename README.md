@@ -3,7 +3,7 @@
 * このリポジトリは千葉工業大学先進工学部未来ロボティクス学科4sのロボットシステム学の講義で作成したものである。
 * このリポジトリを使用するためにはROS2をダウンロードしている必要がある。
 ![test.bash](https://github.com/m1031/mypkg/actions/workflows/test.yml/badge.svg)
-# topicとは
+# topicについて
 * 今回はメッセージの型が16ビット符号付き整数である/countupというtopicを使用する。
 # talker.py
 * 数字をカウントしてトピック/countupを通して送信するパブリッシャを持つノードである。
