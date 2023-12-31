@@ -1,5 +1,6 @@
 # robosys2023
 # mypkg
+このリポジトリは千葉工業大学先進工学部未来ロボティクス学科4sのロボットシステム学の講義で作成したものです。
 このリポジトリを使用するためにはROS2をダウンロードしている必要があります。
 ![test.bash](https://github.com/m1031/mypkg/actions/workflows/test.yml/badge.svg)
 # topicとは
