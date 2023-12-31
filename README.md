@@ -13,7 +13,7 @@
 ## インストール方法
 * ubuntu上で以下のコードを入力することでクローンを作成できる
 ```
-
+git clone https://github.com/m1031/mypkg
 ```
 ## 使用例
 # talker.py&listener.py
