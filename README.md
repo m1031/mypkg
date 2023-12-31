@@ -1,7 +1,7 @@
 # robosys2023
 # mypkg
-* このリポジトリは千葉工業大学先進工学部未来ロボティクス学科4sのロボットシステム学の講義で作成したものです。
-* このリポジトリを使用するためにはROS2をダウンロードしている必要があります。
+* このリポジトリは千葉工業大学先進工学部未来ロボティクス学科4sのロボットシステム学の講義で作成したものである。
+* このリポジトリを使用するためにはROS2をダウンロードしている必要がある。
 ![test.bash](https://github.com/m1031/mypkg/actions/workflows/test.yml/badge.svg)
 # topicとは
 * 今回はメッセージの型が16ビット符号付き整数である/countupというtopicを使用する。
@@ -74,7 +74,7 @@ ros2 launch mypkg talk_listen.launch.py
 ## テスト環境
 * Ubuntu 22.04.2 LTS
 ## 著作権、ライセンス
-* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
-* このパッケージのコードの一部やテストの為に使用しているコンテナは下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て使用したものです。
+* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可される。
+* このパッケージのコードの一部やテストの為に使用しているコンテナは下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て使用したものである。
  * [ryuichiueda/mypkg](https://github.com/ryuichiueda/mypkg)
 * © 2023 Mahiro Yamoto
