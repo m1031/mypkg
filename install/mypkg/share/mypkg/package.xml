@@ -4,7 +4,7 @@
   <name>mypkg</name>
   <version>0.0.0</version>
   <description>a package for practice</description>
-  <maintainer email="ma20031031@icloud.com">root</maintainer>
+  <maintainer email="tokojun15@outlook.jp">tokojun</maintainer>
   <license>BSD-3-Clause</license>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
@@ -18,4 +18,4 @@
   <export>
     <build_type>ament_python</build_type>
   </export>
-  </package>
+</package>
