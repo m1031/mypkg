@@ -11,8 +11,10 @@
 # talk_listen.launch.py
 * talker.pyとlistener.pyを一度に立ち上げることができるもの
 ## インストール方法
-* 1.github上でplusのコードを開き、右上のmore file actionのボタンを押してcopy pathを選択してURLを取得する。
-* 2.ubuntu上で　"git clone ＜取得したURL＞"を入力することでクローンを入手できる。
+* ubuntu上で以下のコードを入力することでクローンを作成できる
+```
+
+```
 ## 使用例
 # talker.py&listener.py
 * talker側で"ros2 run mypkg talker",listener側で"ros2 run mypkg listener"と入力するとlistener側に以下の出力が得られる。
