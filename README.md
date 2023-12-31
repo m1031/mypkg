@@ -16,7 +16,7 @@
 ## 使用例
 # talker.py&listener.py
 * talker側で"ros2 run mypkg talker",listener側で"ros2 run mypkg listener"と入力するとlistener側に以下の出力が得られる。
-,,,
+```
 [INFO] [1703994355.300705431] [listener]: Listen: 107
 [INFO] [1703994355.793491557] [listener]: Listen: 108
 [INFO] [1703994356.293891845] [listener]: Listen: 109
@@ -27,10 +27,10 @@
 [INFO] [1703994358.794656592] [listener]: Listen: 114
 [INFO] [1703994359.294840084] [listener]: Listen: 115
 [INFO] [1703994359.794692290] [listener]: Listen: 116
-,,,
+```
 # talk_listen.launch.py
 ターミナル上で"ros2 launch mypkg talk_listen.launch.py"と入力すると以下の出力が得られる。
-
+```
 [INFO] [launch]: All log files can be found below /root/.ros/log/2023-12-31-12-40-22-882868-m1031-5017
 [INFO] [launch]: Default logging verbosity is set to INFO
 [INFO] [talker-1]: process started with pid [5019]
@@ -50,6 +50,7 @@
 [listener-2] [INFO] [1703994029.557080409] [listener]: Listen: 12
 [listener-2] [INFO] [1703994030.057077995] [listener]: Listen: 13
 [listener-2] [INFO] [1703994030.556571114] [listener]: Listen: 14
+```
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7〜3.10
