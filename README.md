@@ -2,7 +2,8 @@
 # mypkg
 このリポジトリを使用するためにはROS2をダウンロードしている必要があります。
 ![test.bash](https://github.com/m1031/mypkg/actions/workflows/test.yml/badge.svg)
-
+# topicとは
+* ノード間でやりとりするデータのことで、相手の状態に関係なく常にデータを発信しており、不特定多数がデータを受け取ることができる仕組みになっている。
 # talker.py
 * 数字をカウントしてトピック/countupを通して送信する
 # listener.py
