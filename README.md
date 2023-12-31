@@ -56,5 +56,6 @@
 * Ubuntu 20.04
 ## 著作権、ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
-* [ryuichiueda/mypkg](https://github.com/ryuichiueda/mypkg)
+*このパッケージのコードの一部やテストの為に使用しているコンテナは下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て使用したものです。
+ * [ryuichiueda/mypkg](https://github.com/ryuichiueda/mypkg)
 * © 2023 Mahiro Yamoto
