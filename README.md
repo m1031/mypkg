@@ -39,7 +39,11 @@ ros2 run mypkg listener
 [INFO] [1703994359.794692290] [listener]: Listen: 116
 ```
 # talk_listen.launch.py
-ターミナル上で"ros2 launch mypkg talk_listen.launch.py"と入力すると以下の出力が得られる。
+ターミナル上で
+```
+ros2 launch mypkg talk_listen.launch.py
+```
+と入力すると以下の出力が得られる。
 ```
 [INFO] [launch]: All log files can be found below /root/.ros/log/2023-12-31-12-40-22-882868-m1031-5017
 [INFO] [launch]: Default logging verbosity is set to INFO
