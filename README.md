@@ -17,7 +17,15 @@ git clone https://github.com/m1031/mypkg
 ```
 ## 使用例
 # talker.py&listener.py
-* talker側で"ros2 run mypkg talker",listener側で"ros2 run mypkg listener"と入力するとlistener側に以下の出力が得られる。
+* talker側
+```
+ros2 run mypkg talker
+```
+listener側
+```
+ros2 run mypkg listener
+```
+と入力するとlistener側に以下の出力が得られる。
 ```
 [INFO] [1703994355.300705431] [listener]: Listen: 107
 [INFO] [1703994355.793491557] [listener]: Listen: 108
